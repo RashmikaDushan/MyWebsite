@@ -1,0 +1,17 @@
+.head {
+  padding: auto;
+  padding-left: 10vw;
+  padding-top: 8vw;
+}
+
+.caption {
+  color: rgb(255, 255, 255);
+  font-size: 12vw;
+}
+
+p {
+  color: white;
+  width: 50vw;
+  line-height: 2rem;
+  font-weight: 100;
+}
