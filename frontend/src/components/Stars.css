@@ -1,19 +1,24 @@
+:root {
+  /*--star_color: #0088ff;*/
+  --star_color: white;
+}
+
 .bg {
   z-index: -2000;
   width: 100vw;
   height: 100vh;
-  background: radial-gradient(
+  /*background: radial-gradient(
     circle farthest-corner at bottom center,
     #1c2632,
     #0a0b10
-  );
+  );*/
 }
 
 .star {
   position: absolute;
   width: 3px;
   height: 3px;
-  background-color: #ffffff;
+  background-color: var(--star_color);
   border-radius: 100%;
   opacity: 1;
   animation: twinkle 50s ease-in-out infinite;
@@ -35,7 +40,7 @@
   position: absolute;
   width: 2px;
   height: 2px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--star_color);
   border-radius: 100%;
   opacity: 1;
   animation: twinkle2 50s ease-in-out infinite;
@@ -57,7 +62,7 @@
   position: absolute;
   width: 1px;
   height: 1px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--star_color);
   border-radius: 100%;
   opacity: 1;
   animation: twinkle3 50s ease-in-out infinite;
